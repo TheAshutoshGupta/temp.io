@@ -1,8 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/urOAQvpXbTJ
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 export default function Maintenance() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-950 px-4">
@@ -10,7 +5,7 @@ export default function Maintenance() {
         <WrenchIcon className="h-16 w-16 mx-auto text-gray-500 dark:text-gray-400" />
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50">Site Under Maintenance</h1>
         <p className="text-gray-500 dark:text-gray-400">
-          We're currently performing scheduled maintenance. The site will be back up and running shortly.
+          We&apos;re currently performing scheduled maintenance. The site will be back up and running shortly.
         </p>
         <p className="text-xs text-gray-500 dark:text-gray-400">Please check back in a few minutes.</p>
       </div>
@@ -18,7 +13,7 @@ export default function Maintenance() {
   )
 }
 
-function WrenchIcon(props:any) {
+function WrenchIcon(props: any) {
   return (
     <svg
       {...props}
